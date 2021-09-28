@@ -10,13 +10,14 @@ git clone https://github.com/FaisalAhmed0/Deep-Leakage-from-Gradients
 ### you can setup a new environment and install requirements.txt
 
 ```python
+conda create -n dlfg_env 
 pip3 install -r requirements.txt 
 ```
 
 ### activate the new environment and run train.py
-e.g To train saint_i model in self-supervised mode, run;
 
 ```bash
+conda activate dlfg_env 
 python train.py --dataset mnist
 ```
 
